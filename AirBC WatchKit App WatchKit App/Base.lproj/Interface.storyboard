@@ -107,6 +107,8 @@
                                         <outlet property="destinationLabel" destination="0XT-QL-3KN" id="CbX-l4-3ve"/>
                                         <outlet property="flightNumberLabel" destination="Poq-vv-Byc" id="QmY-kr-eDj"/>
                                         <outlet property="originLabel" destination="lfc-5o-KVt" id="8hd-eE-oe1"/>
+                                        <outlet property="planeImage" destination="K1q-9g-0DG" id="aNP-n7-esN"/>
+                                        <outlet property="separator" destination="Sni-Ti-iaX" id="s49-Fb-4QK"/>
                                         <outlet property="statusLabel" destination="2zn-yX-rVg" id="g4w-ug-6LT"/>
                                     </connections>
                                 </tableRow>
@@ -119,6 +121,51 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="105" y="-82"/>
+        </scene>
+        <!--CheckIn-->
+        <scene sceneID="zDZ-u9-YGi">
+            <objects>
+                <controller identifier="CheckIn" id="Osd-su-QNf" customClass="CheckInInterfaceController" customModule="AirBC_WatchKit_App_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="1" alignment="center" contentMode="center" layout="vertical" id="QWg-85-vi0">
+                            <items>
+                                <group height="30" alignment="center" spacing="4" id="nWB-gI-zHo">
+                                    <items>
+                                        <label alignment="left" verticalAlignment="center" text="MEL" id="Ey5-AF-J7n">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                        <imageView width="24" height="20" alignment="left" verticalAlignment="center" image="Plane" id="ain-wD-NcN">
+                                            <color key="tintColor" red="0.98039215686274506" green="0.066666666666666666" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+                                        </imageView>
+                                        <label alignment="right" verticalAlignment="center" text="SFO" id="dl6-Mn-NZg">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <button alignment="center" verticalAlignment="center" id="bPP-aj-zHb">
+                                    <group key="contentGroup" width="78" height="78" alignment="left" radius="39" id="Vfx-Zb-ei9">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Check In" id="bA5-hs-FzP">
+                                                <fontDescription key="font" type="system" weight="semibold" pointSize="16"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.98039215686274506" green="0.066666666666666666" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                    <connections>
+                                        <action selector="checkInButtonTapped" destination="Osd-su-QNf" id="Oda-ke-Eax"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="backgroundGroup" destination="QWg-85-vi0" id="Y5p-Ej-oFr"/>
+                        <outlet property="destinationLabel" destination="dl6-Mn-NZg" id="QW3-Eu-JM7"/>
+                        <outlet property="originLabel" destination="Ey5-AF-J7n" id="JLb-vG-DPf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="403" y="-82"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.98039215686274506" green="0.066666666666666666" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>

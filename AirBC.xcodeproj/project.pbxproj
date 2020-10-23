@@ -27,6 +27,7 @@
 		E10045732543309E005D8922 /* FlightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10045722543309E005D8922 /* FlightInterfaceController.swift */; };
 		E114814E2543364C0014FB0F /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E114814D2543364C0014FB0F /* ScheduleInterfaceController.swift */; };
 		E1148158254339610014FB0F /* FlightRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1148157254339610014FB0F /* FlightRowController.swift */; };
+		E114816225434AFA0014FB0F /* CheckInInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E114816125434AFA0014FB0F /* CheckInInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		E10045722543309E005D8922 /* FlightInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInterfaceController.swift; sourceTree = "<group>"; };
 		E114814D2543364C0014FB0F /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
 		E1148157254339610014FB0F /* FlightRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRowController.swift; sourceTree = "<group>"; };
+		E114816125434AFA0014FB0F /* CheckInInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				E10045722543309E005D8922 /* FlightInterfaceController.swift */,
 				E114814D2543364C0014FB0F /* ScheduleInterfaceController.swift */,
 				E1148157254339610014FB0F /* FlightRowController.swift */,
+				E114816125434AFA0014FB0F /* CheckInInterfaceController.swift */,
 				E100453825432E4A005D8922 /* ExtensionDelegate.swift */,
 				E100453A25432E4A005D8922 /* ComplicationController.swift */,
 				E100453C25432E4B005D8922 /* Assets.xcassets */,
@@ -356,6 +359,7 @@
 			files = (
 				E100456D25432F23005D8922 /* Flight.swift in Sources */,
 				E10045732543309E005D8922 /* FlightInterfaceController.swift in Sources */,
+				E114816225434AFA0014FB0F /* CheckInInterfaceController.swift in Sources */,
 				E1148158254339610014FB0F /* FlightRowController.swift in Sources */,
 				E114814E2543364C0014FB0F /* ScheduleInterfaceController.swift in Sources */,
 				E100453925432E4A005D8922 /* ExtensionDelegate.swift in Sources */,
