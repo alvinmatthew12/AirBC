@@ -6,6 +6,7 @@
 //
 
 import WatchKit
+import Foundation
 
 class FlightInterfaceController: WKInterfaceController {
     
@@ -40,7 +41,9 @@ class FlightInterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        flight = Flight.allFlights().first
+        if let flight = context as? Flight {
+            self.flight = flight
+        }
     }
     
 }

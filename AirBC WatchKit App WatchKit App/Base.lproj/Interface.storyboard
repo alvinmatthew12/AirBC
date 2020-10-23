@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17156" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bWa-dh-lz2">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17156" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sga-dU-CXx">
     <device id="watch42"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
@@ -59,8 +59,71 @@
             </objects>
             <point key="canvasLocation" x="-183" y="-81"/>
         </scene>
+        <!--Air BC-->
+        <scene sceneID="ngI-my-PAq">
+            <objects>
+                <controller identifier="Schedule" title="Air BC" id="sga-dU-CXx" customClass="ScheduleInterfaceController" customModule="AirBC_WatchKit_App_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="0cQ-cn-Mic">
+                            <items>
+                                <tableRow identifier="FlightRow" id="FMs-LM-WAb" customClass="FlightRowController" customModule="AirBC_WatchKit_App_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="E7v-t4-7ED">
+                                        <items>
+                                            <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="Sni-Ti-iaX">
+                                                <color key="color" red="0.98039215686274506" green="0.066666666666666666" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+                                            </separator>
+                                            <group alignment="left" layout="vertical" spacing="0.0" id="pEv-kV-OUs">
+                                                <items>
+                                                    <group width="1" height="32" alignment="left" spacing="4" id="TCv-ME-tfx">
+                                                        <items>
+                                                            <label alignment="left" verticalAlignment="center" text="MEL" id="lfc-5o-KVt">
+                                                                <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                                            </label>
+                                                            <imageView width="24" height="20" alignment="center" verticalAlignment="center" image="Plane" id="K1q-9g-0DG">
+                                                                <color key="tintColor" red="0.98039215686274506" green="0.066666666666666666" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </imageView>
+                                                            <label alignment="right" verticalAlignment="center" text="SFO" id="0XT-QL-3KN">
+                                                                <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                    <group width="1" alignment="left" id="FBp-3q-1QC">
+                                                        <items>
+                                                            <label alignment="left" verticalAlignment="bottom" text="AA123" id="Poq-vv-Byc">
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                                            </label>
+                                                            <label alignment="right" verticalAlignment="bottom" text="On time" id="2zn-yX-rVg">
+                                                                <color key="textColor" red="0.015686274509803921" green="0.87058823529411766" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="destinationLabel" destination="0XT-QL-3KN" id="CbX-l4-3ve"/>
+                                        <outlet property="flightNumberLabel" destination="Poq-vv-Byc" id="QmY-kr-eDj"/>
+                                        <outlet property="originLabel" destination="lfc-5o-KVt" id="8hd-eE-oe1"/>
+                                        <outlet property="statusLabel" destination="2zn-yX-rVg" id="g4w-ug-6LT"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="flightsTable" destination="0cQ-cn-Mic" id="AJj-n3-Ycb"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="105" y="-82"/>
+        </scene>
     </scenes>
+    <color key="tintColor" red="0.98039215686274506" green="0.066666666666666666" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
     <resources>
         <image name="Logo" width="40" height="40"/>
+        <image name="Plane" width="30" height="25"/>
     </resources>
 </document>
