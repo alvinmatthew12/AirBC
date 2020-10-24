@@ -28,7 +28,7 @@
  * THE SOFTWARE.
  */
 
-import WatchKit
+import UIKit
 
 class Flight {
   

@@ -532,7 +532,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBBFD52US3;
 				INFOPLIST_FILE = AirBC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -540,7 +542,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alvinmatthew.AirBC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -550,7 +552,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBBFD52US3;
 				INFOPLIST_FILE = AirBC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -558,7 +562,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alvinmatthew.AirBC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -567,6 +571,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBBFD52US3;
 				INFOPLIST_FILE = "AirBC WatchKit App WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -588,6 +593,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBBFD52US3;
 				INFOPLIST_FILE = "AirBC WatchKit App WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -611,6 +617,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBBFD52US3;
 				IBSC_MODULE = AirBC_WatchKit_App_WatchKit_Extension;
 				INFOPLIST_FILE = "AirBC WatchKit App WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alvinmatthew.AirBC.watchkitapp;
@@ -630,6 +637,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBBFD52US3;
 				IBSC_MODULE = AirBC_WatchKit_App_WatchKit_Extension;
 				INFOPLIST_FILE = "AirBC WatchKit App WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alvinmatthew.AirBC.watchkitapp;
@@ -647,8 +655,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GBBFD52US3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alvinmatthew.AirBC-WatchKit-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvinmatthew.AirBC.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -659,8 +668,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GBBFD52US3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alvinmatthew.AirBC-WatchKit-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvinmatthew.AirBC.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
